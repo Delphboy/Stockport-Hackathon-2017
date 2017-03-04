@@ -46,7 +46,9 @@ namespace Stockport_Hackathon
             var GetByLatLongCurrentWeatherResult = repo.GetWeatherDataByLatLong(key, "30.2669444", "-97.7427778");
             var GetByIPCurrentWeatherResult = repo.GetWeatherDataByAutoIP(key);
 
-            weatherTest.Text = GetCityCurrentWeatherResult.location.name;
+
+            //Output of data:
+            //weatherTest.Text = GetCityCurrentWeatherResult.location.name; 
             
         }
     }
