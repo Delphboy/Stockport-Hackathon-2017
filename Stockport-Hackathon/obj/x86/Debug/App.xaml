@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="Stockport_Hackathon.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Stockport_Hackathon"
+    RequestedTheme="Light">
+
+</Application>
+

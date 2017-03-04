@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using APIXULib;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
+//using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,9 +31,10 @@ namespace Stockport_Hackathon
         public MainPage()
         {
             this.InitializeComponent();
+            this.TestWeather();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void TestWeather()
         {
             string key = "1ffd6b91d1f14dbe93394522170403";
             IRepository repo = new Repository();
