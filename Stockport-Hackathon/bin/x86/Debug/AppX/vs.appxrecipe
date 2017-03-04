@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>F064F21483928D578942C4A85A6E13E305F52D884AD2B534DF485B6E170D7B1D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8E4586AA3FDEDD0D193869F662CACAFA2B82E7B0F61A8F0CEAF0A52A7F78CB03</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6cdb153c-a867-4ac3-a08e-e6d645302d2d_1.0.0.0_x86__1c3gfjwp8m498</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6cdb153c-a867-4ac3-a08e-e6d645302d2d_1c3gfjwp8m498!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6cdb153c-a867-4ac3-a08e-e6d645302d2d</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-04T12:54:32.746</Modified>
+      <Modified>2017-03-04T10:14:06.645</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Stockport-Hackathon.exe">
       <PackagePath>entrypoint\Stockport-Hackathon.exe</PackagePath>
-      <Modified>2017-03-04T12:54:30.530</Modified>
+      <Modified>2017-03-04T10:13:58.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -504,7 +504,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Stockport-Hackathon.xr.xml">
       <PackagePath>Stockport-Hackathon.xr.xml</PackagePath>
-      <Modified>2017-03-04T12:54:29.951</Modified>
+      <Modified>2017-03-04T10:13:55.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -512,12 +512,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-04T12:54:32.121</Modified>
+      <Modified>2017-03-04T10:14:03.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Core\Stockport-Hackathon.exe">
       <PackagePath>Stockport-Hackathon.exe</PackagePath>
-      <Modified>2017-03-04T12:54:32.736</Modified>
+      <Modified>2017-03-04T10:14:06.620</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
