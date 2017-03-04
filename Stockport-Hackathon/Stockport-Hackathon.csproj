@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="classes\Activity.cs" />
     <Compile Include="classes\Functions.cs" />
     <Compile Include="classes\MapClass.cs" />
     <Compile Include="MainPage.xaml.cs">
