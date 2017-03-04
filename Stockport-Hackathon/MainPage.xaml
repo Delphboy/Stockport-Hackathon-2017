@@ -8,9 +8,16 @@
     x:Class="Stockport_Hackathon.MainPage"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid x:Name="background" Background="#FF9C9C9C">
 
-        <Maps:MapControl HorizontalAlignment="Left" Margin="138,236,0,0" VerticalAlignment="Top" Height="280" Width="357"/>
+        <Maps:MapControl HorizontalAlignment="Left" Margin="87,234,0,0" VerticalAlignment="Top" Height="464" Width="710" RenderTransformOrigin="0.512,0.503"/>
+        <TextBlock x:Name="WeatherDesc" HorizontalAlignment="Left" Margin="87,736,0,0" TextWrapping="Wrap" Text="GROUP BOX" VerticalAlignment="Top" Height="146" Width="1049" Foreground="White"/>
+        <TextBlock x:Name="DateName" HorizontalAlignment="Left" Margin="87,172,0,0" TextWrapping="Wrap" Text="Date :" VerticalAlignment="Top" Height="32" Width="64" FontWeight="Bold" FontSize="17" FontStyle="Oblique" Foreground="White"/>
+        <TextBlock x:Name="WeatherName" HorizontalAlignment="Left" Margin="87,708,0,0" TextWrapping="Wrap" Text="Weather" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Foreground="White"/>
+        <TextBlock x:Name="LocationName" Margin="828,243,0,0" TextWrapping="Wrap" Text="Location" Height="26" Width="220" FontSize="17" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock x:Name="LocationDesc" HorizontalAlignment="Left" Margin="828,274,0,0" TextWrapping="Wrap" Text="Group Box" VerticalAlignment="Top" Height="424" Width="220" Foreground="White"/>
+        <CalendarDatePicker HorizontalAlignment="Left" Margin="151,167,0,0" VerticalAlignment="Top" Background="#66FFFFFF" Foreground="White"/>
+        <Button x:Name="DateButton" Content="Search Date" HorizontalAlignment="Left" Margin="283,166,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
