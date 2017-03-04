@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace APIXULib
 {
-    public class Location
+    public class Loc
     {
         public string name { get; set; }
         public string region { get; set; }
@@ -118,8 +118,13 @@ namespace APIXULib
 
     public class WeatherModel
     {
-        public Location location { get; set; }
+        public Loc location { get; set; }
         public Current current { get; set; }
         public Forecast forecast { get; set; }
+
+        public string toString()
+        {
+            return current.condition.text;
+        }
     }
 }

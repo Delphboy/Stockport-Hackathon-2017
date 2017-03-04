@@ -9,11 +9,11 @@ namespace Stockport_Hackathon.classes
 {
     class MapClass
     {
-        private Map m = new Map();
+        private Map m;
 
         public MapClass()
         {
-
+            m = new Map();
         }
 
         public void loadAtStockport()
