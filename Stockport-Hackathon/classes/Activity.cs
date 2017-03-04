@@ -55,5 +55,34 @@ namespace Stockport_Hackathon.classes
             get { return postcode; }
             set { postcode = value; }
         }
+
+        private bool isIndoor;
+        public bool IsIndoor
+        {
+            get { return isIndoor; }
+            set { isIndoor = value; }
+        }
+
+        private bool isNDF;
+        public bool IsNSF
+        {
+            get { return isNDF; }
+            set { isNDF = value; }
+        }
+
+        private string details;
+        public string Details
+        {
+            get { return details; }
+            set { details = value;  }
+        }
+
+        private activityDay day;
+        public activityDay Day
+        {
+            get { return day; }
+            set { day = value;  }
+        }
+
     }
 }
