@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>F08C6538FDFC61268FD005E5F9244AFE5F372163B9A60B292304C632678CEDF2</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8E4586AA3FDEDD0D193869F662CACAFA2B82E7B0F61A8F0CEAF0A52A7F78CB03</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6cdb153c-a867-4ac3-a08e-e6d645302d2d_1.0.0.0_x86__1c3gfjwp8m498</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6cdb153c-a867-4ac3-a08e-e6d645302d2d_1c3gfjwp8m498!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6cdb153c-a867-4ac3-a08e-e6d645302d2d</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\HPS19\Documents\Visual Studio 2015\Projects\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-03T16:08:23.919</Modified>
+      <Modified>2017-03-04T10:14:06.645</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HPS19\Documents\Visual Studio 2015\Projects\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Stockport-Hackathon.exe">
       <PackagePath>entrypoint\Stockport-Hackathon.exe</PackagePath>
-      <Modified>2017-03-03T16:08:15.095</Modified>
+      <Modified>2017-03-04T10:13:58.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HPS19\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -488,7 +488,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HPS19\Documents\Visual Studio 2015\Projects\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Stockport-Hackathon.xr.xml">
       <PackagePath>Stockport-Hackathon.xr.xml</PackagePath>
-      <Modified>2017-03-03T16:08:14.151</Modified>
+      <Modified>2017-03-04T10:13:55.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -496,11 +496,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HPS19\Documents\Visual Studio 2015\Projects\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-03-03T16:08:21.724</Modified>
+      <Modified>2017-03-04T10:14:03.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HPS19\Documents\Visual Studio 2015\Projects\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Core\Stockport-Hackathon.exe">
       <PackagePath>Stockport-Hackathon.exe</PackagePath>
-      <Modified>2017-03-03T16:08:23.897</Modified>
+      <Modified>2017-03-04T10:14:06.620</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
