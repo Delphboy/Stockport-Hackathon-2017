@@ -31,10 +31,10 @@ namespace Stockport_Hackathon
         public MainPage()
         {
             this.InitializeComponent();
-            this.TestWeather();
+            weatherUpdate();
         }
 
-        private void TestWeather()
+        private void weatherUpdate()
         {
             string key = "1ffd6b91d1f14dbe93394522170403";
             IRepository repo = new Repository();
@@ -42,11 +42,12 @@ namespace Stockport_Hackathon
             var GetByLatLongForecastWeatherResult = repo.GetWeatherDataByLatLong(key, "30.2669444", "-97.7427778", Days.Three);
             var GetByIPForecastWeatherResult = repo.GetWeatherDataByAutoIP(key, Days.Three);
 
-
             var GetCityCurrentWeatherResult = repo.GetWeatherData(key, GetBy.CityName, "paris");
             var GetByLatLongCurrentWeatherResult = repo.GetWeatherDataByLatLong(key, "30.2669444", "-97.7427778");
             var GetByIPCurrentWeatherResult = repo.GetWeatherDataByAutoIP(key);
 
+            weatherTest.Text = GetCityCurrentWeatherResult.location.name;
+            
         }
     }
 }

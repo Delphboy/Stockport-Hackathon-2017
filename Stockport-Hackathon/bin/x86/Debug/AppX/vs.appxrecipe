@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-04T11:21:32.032</Modified>
+      <Modified>2017-03-04T12:54:32.746</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Stockport-Hackathon.exe">
       <PackagePath>entrypoint\Stockport-Hackathon.exe</PackagePath>
-      <Modified>2017-03-04T11:21:22.088</Modified>
+      <Modified>2017-03-04T12:54:30.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -504,7 +504,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Stockport-Hackathon.xr.xml">
       <PackagePath>Stockport-Hackathon.xr.xml</PackagePath>
-      <Modified>2017-03-03T21:42:06.412</Modified>
+      <Modified>2017-03-04T12:54:29.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -513,11 +513,11 @@
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-04T11:21:29.937</Modified>
+      <Modified>2017-03-04T12:54:32.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Seiya\Desktop\Stockport Hackathon\Stockport Code\Stockport-Hackathon\Stockport-Hackathon\bin\x86\Debug\Core\Stockport-Hackathon.exe">
       <PackagePath>Stockport-Hackathon.exe</PackagePath>
-      <Modified>2017-03-04T11:21:32.003</Modified>
+      <Modified>2017-03-04T12:54:32.736</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
