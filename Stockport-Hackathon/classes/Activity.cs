@@ -9,46 +9,51 @@ using Bing.Maps;
 namespace Stockport_Hackathon.classes
 {
     public enum weatherList { SUN, WIND, RAIN, STORM}
-    public enum durationList { DAILY, WEEKLY, FORTNIGHTLY, MONTHLY, BI_MONTHLY, TERM_TIME, ANUAL, NOT_STATED, OTHER}
+    public enum activityDay{ MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY}
+    public enum activityType { PHYSICAL, HEALTH, CREATIVE, LEISURE}
 
     class Activity
     {
-        private string name;
-        public string Name
+        private activityType type;
+        public activityType Type
         {
-            get { return name; }
-            set { name = value; }
+            get { return type; }
+            set { type = value; }
         }
 
-        private Location location;
-        public Location Location
+        private string region;
+        public string Region
         {
-            get { return location; }
-            set { location = value; }
+            get { return region; }
+            set { region = value; }
         }
 
-        private DateTime dateAndTime;
-        public DateTime DateAndTime
+        private string venue;
+        public string Venue
         {
-            get { return dateAndTime; }
-            set { dateAndTime = value; }
+            get { return venue; }
+            set { venue = value; } 
         }
 
-        private weatherList weather;
-        public weatherList Weather
+        private string street;
+        public string Street
         {
-            get { return weather; }
-            set { weather = value; }
+            get { return street; }
+            set { street = value; }
         }
 
-        //If Activities have ranking based on popularity
-        private int rank;
-        public int Rank
+        private string locality;
+        public string Locality
         {
-            get { return rank; }
-            set { rank = value; }
+            get { return locality; }
+            set { locality = value; }
         }
 
-
+        private string postcode;
+        public string Postcode
+        {
+            get { return postcode; }
+            set { postcode = value; }
+        }
     }
 }
