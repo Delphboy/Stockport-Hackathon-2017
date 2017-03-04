@@ -8,9 +8,5 @@
     x:Class="Stockport_Hackathon.MainPage"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-        <Maps:MapControl HorizontalAlignment="Left" Margin="138,236,0,0" VerticalAlignment="Top" Height="280" Width="357"/>
-
-    </Grid>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"/>
 </Page>
